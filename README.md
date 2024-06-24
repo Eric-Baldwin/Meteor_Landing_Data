@@ -46,11 +46,11 @@ The EDA is conducted through a series of Jupyter Notebooks located in the `noteb
 Various visualizations are created to analyze the meteorite data. The scripts for these visualizations are located in the `src/visualization_scripts` directory. Key visualizations include:
 
 #### Mass Distribution Boxplots
-- **`found_avg_mass_big.py`**: Generates box plots showing the mass distribution of found meteorites.
+- **`found_avg_mass_big.py`**: Generates box plots showing the mass distribution of all found meteorites.
   - **found_avg_mass_big.png**: Full range mass distribution.
   - **found_avg_mass_big_trunc.png**: Truncated mass distribution up to 1000g.
 
-- **`found_avg_mass_small.py`**: Generates box plots showing the mass distribution of smaller found meteorites.
+- **`found_avg_mass_small.py`**: Generates box plots showing the mass distribution of top 3 found meteorites.
   - **found_avg_mass_small.png**: Full range mass distribution.
   - **found_avg_mass_small_trunc.png**: Truncated mass distribution up to 1000g.
 
