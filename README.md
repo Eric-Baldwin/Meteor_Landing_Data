@@ -73,7 +73,7 @@ Various visualizations are created to analyze the meteorite data. The scripts fo
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.1
 - Pandas
 - Matplotlib
 - Seaborn
