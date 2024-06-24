@@ -82,12 +82,15 @@ Various visualizations are created to analyze the meteorite data. The scripts fo
 ### Setup
 
 1. Clone the repository:
-   SSH
-   git clone git@github.com:Eric-Baldwin/Meteor_Landing_Data.git
-   cd Meteor_Landing_Data
-   pip install pandas matplotlib seaborn jupyter
-   cd src
-   python main.py
+   - SSH
+   - git clone git@github.com:Eric-Baldwin/Meteor_Landing_Data.git
+   - cd Meteor_Landing_Data
+   - pip install pandas matplotlib seaborn jupyter
+   - save csv file from https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/about_data into data directory
+   - cd src
+   - edit the "input_file_path" in line 28 of the data_cleaning.py script with the path to the csv you just saved
+   - python data_cleaning.py
+   - python main.py
 
 
 
